@@ -12,6 +12,13 @@
   "license": "MIT",
   "description": "SDK wrapper for Moca Pay API",
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/jsonwebtoken": "^9.0.9",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "crypto-js": "^4.2.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }
