@@ -1,0 +1,17 @@
+{
+  "name": "moca_pay_sdk",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Moca",
+  "license": "MIT",
+  "description": "SDK wrapper for Moca Pay API",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
