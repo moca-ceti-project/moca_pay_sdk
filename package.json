@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "",
+    "test": "jest",
     "build": "tsc"
   },
   "keywords": [],
@@ -13,12 +13,24 @@
   "description": "SDK wrapper for Moca Pay API",
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
+    "@types/jest": "^29.5.14",
     "@types/jsonwebtoken": "^9.0.9",
+    "jest": "^29.7.0",
+    "msw": "^2.7.5",
+    "ts-jest": "^29.3.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "axios": "^1.8.4",
     "crypto-js": "^4.2.0",
     "jsonwebtoken": "^9.0.2"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "msw"
+    ],
+    "onlyBuiltDependencies": [
+      "msw"
+    ]
   }
 }
